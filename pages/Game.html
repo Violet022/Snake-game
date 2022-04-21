@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link href="../css/game.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="header__row">
+                    <div class="header__text">
+                        Frontend: 1.2
+                    </div>
+                </div>
+           </header>
+            <content>
+                <div class="gameContainer">
+                    <div class="game__row">
+                        <div class="game__dashboard__column">
+                            
+                            <div class="game__dashboard__score">
+                                <div class="score__number score">
+                                    0
+                                </div>
+                                <div class="score__name">
+                                    Score
+                                </div>
+                            </div>
+                            
+                            <div class="game__dashboard__score">
+                                <div class="score__number highScore">
+                                    0
+                                </div>
+                                <div class="score__name">
+                                    Highscore
+                                </div>
+                            </div>
+                            
+                            <div class="game__dashboard__buttons__column">
+                                <div class="game__buttons__row row_1">
+                                    <div class="game__button" id="up">
+                                        <div class="arrow" id="ar_up">
+                                            &#8593;
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="game__buttons__row row_2">
+                                    <div class="game__button" id="left">
+                                        <div class="arrow" id="ar_left">
+                                            &#8592;
+                                        </div>
+                                    </div>
+                                    <div class="game__button" id="right">
+                                        <div class="arrow" id="ar_right">
+                                            &#8594;
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="game__buttons__row row_3">
+                                    <div class="game__button" id="down">
+                                        <div class="arrow" id="ar_down">
+                                            &#8595;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="game__dashboard__speed">
+                                <input class="speed__number"></input>
+                                <div class="speed__name">
+                                    ms.
+                                </div>
+                            </div>
+                        </div>
+                        <canvas class="game__white__field" id="field" width="500px" height="500px">
+                            <div id="pic"></div>
+                        </canvas>
+                    </div>
+                </div>
+            </content>
+            <footer>
+                <div class="footer__row">
+                    <div class="footer__text">
+                        Frontend: 1.2
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="../js/game.js"></script>
+    </body>
+</html>
